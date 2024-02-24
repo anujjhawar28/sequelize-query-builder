@@ -1,0 +1,59 @@
+{
+  "name": "sequelize-query-builder",
+  "description": "Minimalist library for parsing search request to sequelize query with no vulnerablities",
+  "version": "0.0.1",
+  "author": "Anuj Jhawar <anujjhawar28@gmail.com>",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anujjhawar28/sequelize-query-builder.git"
+  },
+  "keywords": [
+    "sequelize-query-builder",
+    "sequelize-search-builder",
+    "search-builder",
+    "query-builder",
+    "http",
+    "sequelize",
+    "express",
+    "web",
+    "rest",
+    "restful",
+    "api",
+    "search",
+    "query",
+    "http-query",
+    "query-string",
+    "query-parse",
+    "parse",
+    "convert",
+    "request",
+    "request-convert"
+  ],
+  "files": [
+    "LICENSE",
+    "Readme.md",
+    "index.js",
+    "src/",
+    "config/"
+  ],
+  "dependencies": {
+    "lodash.merge": "^4.6.2",
+    "qs": "^6.11.2",
+    "rc": "^1.2.8",
+    "sequelize": "^6.37.1"
+  },
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-mocha": "^10.3.0",
+    "lodash.isequal": "^4.5.0",
+    "mocha": "^10.3.0"
+  },
+  "scripts": {
+    "test": "mocha --exit"
+  }
+}
