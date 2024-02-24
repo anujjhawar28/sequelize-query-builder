@@ -1,4 +1,4 @@
-# Sequelize Search Builder
+# Sequelize Search Query Builder
 ## About
 This is a lightweight library to convert search request (e.g. HTTP) to Sequelize ORM query.
 
