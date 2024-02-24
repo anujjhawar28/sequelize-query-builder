@@ -1,7 +1,7 @@
 const rc = require('rc');
 const defaultConfig = require('../config');
 
-const config = rc('sequelize-query-builder', defaultConfig);
+const config = rc('sequelize-search-query-builder', defaultConfig);
 
 const helpers = {
   isComparableField: key => key[0] !== '_',

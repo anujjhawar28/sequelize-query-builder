@@ -3,7 +3,7 @@ const qs = require('qs');
 const merge = require('lodash.merge');
 const defaultConfig = require('../config');
 
-const config = rc('sequelize-query-builder', defaultConfig);
+const config = rc('sequelize-search-query-builder', defaultConfig);
 
 class BuilderAbstract {
   /**

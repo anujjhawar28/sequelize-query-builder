@@ -4,7 +4,7 @@ This is a lightweight library to convert search request (e.g. HTTP) to Sequelize
 
 ## Installation
 ```bash
-npm install --save sequelize-query-builder
+npm install --save sequelize-search-query-builder
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ Direct generation of where/order/limit/offset query
 ```javascript
 const router  = require('express').Router(),
     models = require('../models'),
-    searchBuilder = require('sequelize-query-builder');
+    searchBuilder = require('sequelize-search-query-builder');
 
 router.get('/search', async (req, res, next) => {
     // Set req.query param to Search Builder constructor
@@ -146,7 +146,7 @@ You can find more examples in the tests of the project (test/index.js)
 
 You can redefine configuration variables in rc file
 
-Just create .sequelize-query-builderrc file in root folder of your project
+Just create .sequelize-search-query-builderrc file in root folder of your project
 
 Or use setter for 'config' parameter (setConfig)
 

@@ -1,6 +1,6 @@
 /*!
- * sequelize-query-builder
- * Copyright(c) 2019 - present, Anuj Jhawar
+ * sequelize-search-query-builder
+ * Copyright(c) 2024 - present, Anuj Jhawar
  * Contacts: anujjhawar28@gmail.com
  * MIT Licensed
  */

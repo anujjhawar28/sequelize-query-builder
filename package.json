@@ -1,5 +1,5 @@
 {
-  "name": "sequelize-query-builder",
+  "name": "sequelize-search-query-builder",
   "description": "Minimalist library for parsing search request to sequelize query with no vulnerablities",
   "version": "0.0.1",
   "author": "Anuj Jhawar <anujjhawar28@gmail.com>",
@@ -7,9 +7,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/anujjhawar28/sequelize-query-builder.git"
+    "url": "https://github.com/anujjhawar28/sequelize-search-query-builder"
   },
   "keywords": [
+    "sequelize-search-query-builder",
     "sequelize-query-builder",
     "sequelize-search-builder",
     "search-builder",
