@@ -1,7 +1,7 @@
 {
   "name": "sequelize-search-query-builder",
   "description": "Minimalist library for parsing search request to sequelize query with no vulnerablities",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Anuj Jhawar <anujjhawar28@gmail.com>",
   "main": "index.js",
   "license": "MIT",
